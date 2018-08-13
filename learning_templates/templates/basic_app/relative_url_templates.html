@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to relative_url_templates.html</h1>
+    <p><a href="{% url 'basic_app:others' %}">The Other Page</a></p>
+    <p><a href="{% url 'admin:index' %}">The Admin Page</a></p>
+    <p><a href="{% url 'index' %}">The Home Page</a></p>
+
+    <!-- python manage.py migrate
+    python manage.py runsserver -->
+  </body>
+</html>
